@@ -19,7 +19,7 @@ client.on('loggedOn', () => {
     
     // REEMPLAZA ESTOS NÚMEROS: Pon aquí las IDs de tus juegos entre los corchetes
     // Ejemplo: [322170] boosteará CS2 y Team Fortress 2 a la vez. Max 30 juegos.
-    client.setGamesPlayed([730, 440]); 
+client.gamesPlayed([322170]); 
     console.log('ÉXITO: Boosteo de horas iniciado para los juegos seleccionados.');
 });
 
